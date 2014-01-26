@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5C2A161895909F00EA1EEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C2A151895909F00EA1EEC /* Cocoa.framework */; };
+		BB5C2A201895909F00EA1EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A1E1895909F00EA1EEC /* InfoPlist.strings */; };
+		BB5C2A221895909F00EA1EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A211895909F00EA1EEC /* main.m */; };
+		BB5C2A261895909F00EA1EEC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A241895909F00EA1EEC /* Credits.rtf */; };
+		BB5C2A291895909F00EA1EEC /* BOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A281895909F00EA1EEC /* BOAppDelegate.m */; };
+		BB5C2A2C1895909F00EA1EEC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A2A1895909F00EA1EEC /* MainMenu.xib */; };
+		BB5C2A2F1895909F00EA1EEC /* FestivalOrders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A2D1895909F00EA1EEC /* FestivalOrders.xcdatamodeld */; };
+		BB5C2A311895909F00EA1EEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A301895909F00EA1EEC /* Images.xcassets */; };
+		BB5C2A38189590A000EA1EEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C2A37189590A000EA1EEC /* XCTest.framework */; };
+		BB5C2A39189590A000EA1EEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C2A151895909F00EA1EEC /* Cocoa.framework */; };
+		BB5C2A41189590A000EA1EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A3F189590A000EA1EEC /* InfoPlist.strings */; };
+		BB5C2A43189590A000EA1EEC /* FestivalOrdersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5C2A3A189590A000EA1EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5C2A0A1895909F00EA1EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5C2A111895909F00EA1EEC;
+			remoteInfo = FestivalOrders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5C2A121895909F00EA1EEC /* FestivalOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5C2A151895909F00EA1EEC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BB5C2A181895909F00EA1EEC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BB5C2A191895909F00EA1EEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB5C2A1A1895909F00EA1EEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB5C2A1D1895909F00EA1EEC /* FestivalOrders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FestivalOrders-Info.plist"; sourceTree = "<group>"; };
+		BB5C2A1F1895909F00EA1EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB5C2A211895909F00EA1EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB5C2A231895909F00EA1EEC /* FestivalOrders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FestivalOrders-Prefix.pch"; sourceTree = "<group>"; };
+		BB5C2A251895909F00EA1EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BB5C2A271895909F00EA1EEC /* BOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOAppDelegate.h; sourceTree = "<group>"; };
+		BB5C2A281895909F00EA1EEC /* BOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOAppDelegate.m; sourceTree = "<group>"; };
+		BB5C2A2B1895909F00EA1EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB5C2A2E1895909F00EA1EEC /* FestivalOrders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FestivalOrders.xcdatamodel; sourceTree = "<group>"; };
+		BB5C2A301895909F00EA1EEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB5C2A36189590A000EA1EEC /* FestivalOrdersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalOrdersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5C2A37189590A000EA1EEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB5C2A3E189590A000EA1EEC /* FestivalOrdersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FestivalOrdersTests-Info.plist"; sourceTree = "<group>"; };
+		BB5C2A40189590A000EA1EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FestivalOrdersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5C2A0F1895909F00EA1EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C2A161895909F00EA1EEC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5C2A33189590A000EA1EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C2A39189590A000EA1EEC /* Cocoa.framework in Frameworks */,
+				BB5C2A38189590A000EA1EEC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5C2A091895909F00EA1EEC = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A1B1895909F00EA1EEC /* FestivalOrders */,
+				BB5C2A3C189590A000EA1EEC /* FestivalOrdersTests */,
+				BB5C2A141895909F00EA1EEC /* Frameworks */,
+				BB5C2A131895909F00EA1EEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5C2A131895909F00EA1EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A121895909F00EA1EEC /* FestivalOrders.app */,
+				BB5C2A36189590A000EA1EEC /* FestivalOrdersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5C2A141895909F00EA1EEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A151895909F00EA1EEC /* Cocoa.framework */,
+				BB5C2A37189590A000EA1EEC /* XCTest.framework */,
+				BB5C2A171895909F00EA1EEC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5C2A171895909F00EA1EEC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A181895909F00EA1EEC /* AppKit.framework */,
+				BB5C2A191895909F00EA1EEC /* CoreData.framework */,
+				BB5C2A1A1895909F00EA1EEC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BB5C2A1B1895909F00EA1EEC /* FestivalOrders */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A271895909F00EA1EEC /* BOAppDelegate.h */,
+				BB5C2A281895909F00EA1EEC /* BOAppDelegate.m */,
+				BB5C2A2A1895909F00EA1EEC /* MainMenu.xib */,
+				BB5C2A301895909F00EA1EEC /* Images.xcassets */,
+				BB5C2A2D1895909F00EA1EEC /* FestivalOrders.xcdatamodeld */,
+				BB5C2A1C1895909F00EA1EEC /* Supporting Files */,
+			);
+			path = FestivalOrders;
+			sourceTree = "<group>";
+		};
+		BB5C2A1C1895909F00EA1EEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A1D1895909F00EA1EEC /* FestivalOrders-Info.plist */,
+				BB5C2A1E1895909F00EA1EEC /* InfoPlist.strings */,
+				BB5C2A211895909F00EA1EEC /* main.m */,
+				BB5C2A231895909F00EA1EEC /* FestivalOrders-Prefix.pch */,
+				BB5C2A241895909F00EA1EEC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB5C2A3C189590A000EA1EEC /* FestivalOrdersTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */,
+				BB5C2A3D189590A000EA1EEC /* Supporting Files */,
+			);
+			path = FestivalOrdersTests;
+			sourceTree = "<group>";
+		};
+		BB5C2A3D189590A000EA1EEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A3E189590A000EA1EEC /* FestivalOrdersTests-Info.plist */,
+				BB5C2A3F189590A000EA1EEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5C2A111895909F00EA1EEC /* FestivalOrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5C2A46189590A000EA1EEC /* Build configuration list for PBXNativeTarget "FestivalOrders" */;
+			buildPhases = (
+				BB5C2A0E1895909F00EA1EEC /* Sources */,
+				BB5C2A0F1895909F00EA1EEC /* Frameworks */,
+				BB5C2A101895909F00EA1EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FestivalOrders;
+			productName = FestivalOrders;
+			productReference = BB5C2A121895909F00EA1EEC /* FestivalOrders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5C2A35189590A000EA1EEC /* FestivalOrdersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5C2A49189590A000EA1EEC /* Build configuration list for PBXNativeTarget "FestivalOrdersTests" */;
+			buildPhases = (
+				BB5C2A32189590A000EA1EEC /* Sources */,
+				BB5C2A33189590A000EA1EEC /* Frameworks */,
+				BB5C2A34189590A000EA1EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5C2A3B189590A000EA1EEC /* PBXTargetDependency */,
+			);
+			name = FestivalOrdersTests;
+			productName = FestivalOrdersTests;
+			productReference = BB5C2A36189590A000EA1EEC /* FestivalOrdersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5C2A0A1895909F00EA1EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "William Witt";
+				TargetAttributes = {
+					BB5C2A35189590A000EA1EEC = {
+						TestTargetID = BB5C2A111895909F00EA1EEC;
+					};
+				};
+			};
+			buildConfigurationList = BB5C2A0D1895909F00EA1EEC /* Build configuration list for PBXProject "FestivalOrders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5C2A091895909F00EA1EEC;
+			productRefGroup = BB5C2A131895909F00EA1EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5C2A111895909F00EA1EEC /* FestivalOrders */,
+				BB5C2A35189590A000EA1EEC /* FestivalOrdersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5C2A101895909F00EA1EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C2A201895909F00EA1EEC /* InfoPlist.strings in Resources */,
+				BB5C2A311895909F00EA1EEC /* Images.xcassets in Resources */,
+				BB5C2A261895909F00EA1EEC /* Credits.rtf in Resources */,
+				BB5C2A2C1895909F00EA1EEC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5C2A34189590A000EA1EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C2A41189590A000EA1EEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5C2A0E1895909F00EA1EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C2A221895909F00EA1EEC /* main.m in Sources */,
+				BB5C2A291895909F00EA1EEC /* BOAppDelegate.m in Sources */,
+				BB5C2A2F1895909F00EA1EEC /* FestivalOrders.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5C2A32189590A000EA1EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C2A43189590A000EA1EEC /* FestivalOrdersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB5C2A3B189590A000EA1EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5C2A111895909F00EA1EEC /* FestivalOrders */;
+			targetProxy = BB5C2A3A189590A000EA1EEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB5C2A1E1895909F00EA1EEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5C2A1F1895909F00EA1EEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB5C2A241895909F00EA1EEC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5C2A251895909F00EA1EEC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BB5C2A2A1895909F00EA1EEC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5C2A2B1895909F00EA1EEC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BB5C2A3F189590A000EA1EEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5C2A40189590A000EA1EEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5C2A44189590A000EA1EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB5C2A45189590A000EA1EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB5C2A47189590A000EA1EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
+				INFOPLIST_FILE = "FestivalOrders/FestivalOrders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB5C2A48189590A000EA1EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
+				INFOPLIST_FILE = "FestivalOrders/FestivalOrders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB5C2A4A189590A000EA1EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FestivalOrders.app/Contents/MacOS/FestivalOrders";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FestivalOrdersTests/FestivalOrdersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB5C2A4B189590A000EA1EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FestivalOrders.app/Contents/MacOS/FestivalOrders";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
+				INFOPLIST_FILE = "FestivalOrdersTests/FestivalOrdersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5C2A0D1895909F00EA1EEC /* Build configuration list for PBXProject "FestivalOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5C2A44189590A000EA1EEC /* Debug */,
+				BB5C2A45189590A000EA1EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5C2A46189590A000EA1EEC /* Build configuration list for PBXNativeTarget "FestivalOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5C2A47189590A000EA1EEC /* Debug */,
+				BB5C2A48189590A000EA1EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB5C2A49189590A000EA1EEC /* Build configuration list for PBXNativeTarget "FestivalOrdersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5C2A4A189590A000EA1EEC /* Debug */,
+				BB5C2A4B189590A000EA1EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB5C2A2D1895909F00EA1EEC /* FestivalOrders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB5C2A2E1895909F00EA1EEC /* FestivalOrders.xcdatamodel */,
+			);
+			currentVersion = BB5C2A2E1895909F00EA1EEC /* FestivalOrders.xcdatamodel */;
+			path = FestivalOrders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB5C2A0A1895909F00EA1EEC /* Project object */;
+}
