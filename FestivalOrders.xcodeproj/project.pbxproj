@@ -19,6 +19,20 @@
 		BB5C2A39189590A000EA1EEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C2A151895909F00EA1EEC /* Cocoa.framework */; };
 		BB5C2A41189590A000EA1EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A3F189590A000EA1EEC /* InfoPlist.strings */; };
 		BB5C2A43189590A000EA1EEC /* FestivalOrdersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */; };
+		BB5C2A671895A2D100EA1EEC /* BOMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */; };
+		BBF9AE32189614680004629D /* Band.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE31189614680004629D /* Band.m */; };
+		BBF9AE35189614680004629D /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE34189614680004629D /* Inventory.m */; };
+		BBF9AE38189614680004629D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE37189614680004629D /* Event.m */; };
+		BBF9AE3B189614690004629D /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE3A189614680004629D /* Order.m */; };
+		BBF9AE3E189614690004629D /* BandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE3D189614690004629D /* BandCategory.m */; };
+		BBF9AE41189614690004629D /* InventoryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE40189614690004629D /* InventoryCategory.m */; };
+		BBF9AE44189618AB0004629D /* BOEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE43189618AB0004629D /* BOEventViewController.m */; };
+		BBF9AE461896DF850004629D /* EventOrders.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE451896DF850004629D /* EventOrders.html */; };
+		BBF9AE491896EA7B0004629D /* BOReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE481896EA7B0004629D /* BOReportViewController.m */; };
+		BBF9AE4B1896F3A30004629D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF9AE4A1896F3A30004629D /* WebKit.framework */; };
+		BBF9AE4D1896FF5B0004629D /* BandOrderReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE4C1896FF5B0004629D /* BandOrderReport.html */; };
+		BBF9AE4F189707040004629D /* OrderForm.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE4E189707040004629D /* OrderForm.html */; };
+		BBF9AE51189707FB0004629D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE50189707FB0004629D /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +66,29 @@
 		BB5C2A3E189590A000EA1EEC /* FestivalOrdersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FestivalOrdersTests-Info.plist"; sourceTree = "<group>"; };
 		BB5C2A40189590A000EA1EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FestivalOrdersTests.m; sourceTree = "<group>"; };
+		BB5C2A641895A2D100EA1EEC /* BOMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMainWindowController.h; sourceTree = "<group>"; };
+		BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMainWindowController.m; sourceTree = "<group>"; };
+		BBF9AE30189614680004629D /* Band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Band.h; sourceTree = "<group>"; };
+		BBF9AE31189614680004629D /* Band.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Band.m; sourceTree = "<group>"; };
+		BBF9AE33189614680004629D /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		BBF9AE34189614680004629D /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+		BBF9AE36189614680004629D /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		BBF9AE37189614680004629D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		BBF9AE39189614680004629D /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		BBF9AE3A189614680004629D /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		BBF9AE3C189614690004629D /* BandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandCategory.h; sourceTree = "<group>"; };
+		BBF9AE3D189614690004629D /* BandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandCategory.m; sourceTree = "<group>"; };
+		BBF9AE3F189614690004629D /* InventoryCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCategory.h; sourceTree = "<group>"; };
+		BBF9AE40189614690004629D /* InventoryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCategory.m; sourceTree = "<group>"; };
+		BBF9AE42189618AB0004629D /* BOEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOEventViewController.h; sourceTree = "<group>"; };
+		BBF9AE43189618AB0004629D /* BOEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOEventViewController.m; sourceTree = "<group>"; };
+		BBF9AE451896DF850004629D /* EventOrders.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EventOrders.html; sourceTree = "<group>"; };
+		BBF9AE471896EA7B0004629D /* BOReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOReportViewController.h; sourceTree = "<group>"; };
+		BBF9AE481896EA7B0004629D /* BOReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOReportViewController.m; sourceTree = "<group>"; };
+		BBF9AE4A1896F3A30004629D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BBF9AE4C1896FF5B0004629D /* BandOrderReport.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BandOrderReport.html; sourceTree = "<group>"; };
+		BBF9AE4E189707040004629D /* OrderForm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = OrderForm.html; sourceTree = "<group>"; };
+		BBF9AE50189707FB0004629D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF9AE4B1896F3A30004629D /* WebKit.framework in Frameworks */,
 				BB5C2A161895909F00EA1EEC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +135,7 @@
 		BB5C2A141895909F00EA1EEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BBF9AE4A1896F3A30004629D /* WebKit.framework */,
 				BB5C2A151895909F00EA1EEC /* Cocoa.framework */,
 				BB5C2A37189590A000EA1EEC /* XCTest.framework */,
 				BB5C2A171895909F00EA1EEC /* Other Frameworks */,
@@ -117,12 +156,19 @@
 		BB5C2A1B1895909F00EA1EEC /* FestivalOrders */ = {
 			isa = PBXGroup;
 			children = (
+				BB5C2A631895A18000EA1EEC /* Model */,
 				BB5C2A271895909F00EA1EEC /* BOAppDelegate.h */,
 				BB5C2A281895909F00EA1EEC /* BOAppDelegate.m */,
 				BB5C2A2A1895909F00EA1EEC /* MainMenu.xib */,
 				BB5C2A301895909F00EA1EEC /* Images.xcassets */,
 				BB5C2A2D1895909F00EA1EEC /* FestivalOrders.xcdatamodeld */,
 				BB5C2A1C1895909F00EA1EEC /* Supporting Files */,
+				BB5C2A641895A2D100EA1EEC /* BOMainWindowController.h */,
+				BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */,
+				BBF9AE42189618AB0004629D /* BOEventViewController.h */,
+				BBF9AE43189618AB0004629D /* BOEventViewController.m */,
+				BBF9AE471896EA7B0004629D /* BOReportViewController.h */,
+				BBF9AE481896EA7B0004629D /* BOReportViewController.m */,
 			);
 			path = FestivalOrders;
 			sourceTree = "<group>";
@@ -135,6 +181,10 @@
 				BB5C2A211895909F00EA1EEC /* main.m */,
 				BB5C2A231895909F00EA1EEC /* FestivalOrders-Prefix.pch */,
 				BB5C2A241895909F00EA1EEC /* Credits.rtf */,
+				BBF9AE451896DF850004629D /* EventOrders.html */,
+				BBF9AE4C1896FF5B0004629D /* BandOrderReport.html */,
+				BBF9AE4E189707040004629D /* OrderForm.html */,
+				BBF9AE50189707FB0004629D /* style.css */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +205,25 @@
 				BB5C2A3F189590A000EA1EEC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB5C2A631895A18000EA1EEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9AE30189614680004629D /* Band.h */,
+				BBF9AE31189614680004629D /* Band.m */,
+				BBF9AE33189614680004629D /* Inventory.h */,
+				BBF9AE34189614680004629D /* Inventory.m */,
+				BBF9AE36189614680004629D /* Event.h */,
+				BBF9AE37189614680004629D /* Event.m */,
+				BBF9AE39189614680004629D /* Order.h */,
+				BBF9AE3A189614680004629D /* Order.m */,
+				BBF9AE3C189614690004629D /* BandCategory.h */,
+				BBF9AE3D189614690004629D /* BandCategory.m */,
+				BBF9AE3F189614690004629D /* InventoryCategory.h */,
+				BBF9AE40189614690004629D /* InventoryCategory.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +274,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "William Witt";
 				TargetAttributes = {
+					BB5C2A111895909F00EA1EEC = {
+						DevelopmentTeam = GDRGHMWXXR;
+					};
 					BB5C2A35189590A000EA1EEC = {
 						TestTargetID = BB5C2A111895909F00EA1EEC;
 					};
@@ -234,10 +306,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF9AE461896DF850004629D /* EventOrders.html in Resources */,
+				BBF9AE51189707FB0004629D /* style.css in Resources */,
 				BB5C2A201895909F00EA1EEC /* InfoPlist.strings in Resources */,
+				BBF9AE4D1896FF5B0004629D /* BandOrderReport.html in Resources */,
 				BB5C2A311895909F00EA1EEC /* Images.xcassets in Resources */,
 				BB5C2A261895909F00EA1EEC /* Credits.rtf in Resources */,
 				BB5C2A2C1895909F00EA1EEC /* MainMenu.xib in Resources */,
+				BBF9AE4F189707040004629D /* OrderForm.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +332,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF9AE41189614690004629D /* InventoryCategory.m in Sources */,
+				BBF9AE32189614680004629D /* Band.m in Sources */,
+				BBF9AE38189614680004629D /* Event.m in Sources */,
 				BB5C2A221895909F00EA1EEC /* main.m in Sources */,
+				BBF9AE3E189614690004629D /* BandCategory.m in Sources */,
+				BBF9AE35189614680004629D /* Inventory.m in Sources */,
+				BBF9AE44189618AB0004629D /* BOEventViewController.m in Sources */,
+				BBF9AE3B189614690004629D /* Order.m in Sources */,
 				BB5C2A291895909F00EA1EEC /* BOAppDelegate.m in Sources */,
 				BB5C2A2F1895909F00EA1EEC /* FestivalOrders.xcdatamodeld in Sources */,
+				BB5C2A671895A2D100EA1EEC /* BOMainWindowController.m in Sources */,
+				BBF9AE491896EA7B0004629D /* BOReportViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
@@ -401,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
@@ -469,6 +556,7 @@
 				BB5C2A48189590A000EA1EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5C2A49189590A000EA1EEC /* Build configuration list for PBXNativeTarget "FestivalOrdersTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +565,7 @@
 				BB5C2A4B189590A000EA1EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

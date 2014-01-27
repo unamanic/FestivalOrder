@@ -1,0 +1,11 @@
+td {
+border-width: 1px;
+border-style: solid;
+padding: 0px;
+margin: 0px;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: separate;
+}
