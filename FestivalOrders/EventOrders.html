@@ -4,16 +4,30 @@
         </style>
 </head>
 <body>
-<H1>[EVENT]</h1>
-<table width="100%">
-<tr>
-<td>Item</td>
-<td>Price</td>
-<td>Quantity</td>
-<td>Total</td>
-<td>Band Orders</td>
+    
+    <table>
+        <tr>
+            <td width="45%"><h1>[EVENT]</h1></td>
+            <td width="45%"><img width="100%" src="[LOGO]" /></td>
+        </tr>
+    </table>
+
+<table width="100%" class="details">
+<tr class="header">
+<td>Delivered Item</td>
+<td>Ordered Qty</td>
+<td>Reserve</td>
+<td>Total Qty</td>
+<td>Unit Price</td>
+<td>Total Price</td>
+<td>Ordered Items</td>
 </tr>
 [ORDERS]
+<tr>
+    <td colspan="4"></td>
+    <td>Event Total</td>
+    <td>[EVENTTOTAL]</td>
+    <td></td>
+</tr>
 </table>
-Event Total: [EVENTTOTAL]
 </body>

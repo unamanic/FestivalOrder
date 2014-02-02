@@ -2,7 +2,7 @@
 //  Band.h
 //  FestivalOrders
 //
-//  Created by William Witt on 1/26/14.
+//  Created by William Witt on 2/2/14.
 //  Copyright (c) 2014 William Witt. All rights reserved.
 //
 
@@ -13,10 +13,12 @@
 
 @interface Band : NSManagedObject
 
+@property (nonatomic, retain) NSDate * date;
 @property (nonatomic, retain) NSString * email;
 @property (nonatomic, retain) NSString * name;
-@property (nonatomic, retain) NSString * phoneNumber;
 @property (nonatomic, retain) NSString * pointOfContact;
+@property (nonatomic, retain) NSDate * readyTime;
+@property (nonatomic, retain) NSString * stage;
 @property (nonatomic, retain) BandCategory *category;
 @property (nonatomic, retain) Event *event;
 @property (nonatomic, retain) NSSet *orders;

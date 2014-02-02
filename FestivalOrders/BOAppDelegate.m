@@ -7,6 +7,7 @@
 //
 
 #import "BOAppDelegate.h"
+#import "Event.h"
 
 @implementation BOAppDelegate
 
@@ -17,6 +18,10 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    //self.window.backgroundColor = [NSColor colorWithCalibratedRed:.2 green:.4 blue:.6 alpha:1];
+    self.inventorySortDescriptor = [NSArray arrayWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"category.name" ascending:YES], [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES], nil];
+    self.orderSortDescriptor = [NSArray arrayWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"deliveredItem.category.name" ascending:YES], [NSSortDescriptor sortDescriptorWithKey:@"requestedItem" ascending:YES], nil];
+
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "com.manicware.FestivalOrders" in the user's Application Support directory.
@@ -82,8 +87,13 @@
     }
     
     NSURL *url = [applicationFilesDirectory URLByAppendingPathComponent:@"FestivalOrders.sqlite"];
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    
     NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:mom];
-    if (![coordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:url options:nil error:&error]) {
+    if (![coordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:url options:options error:&error]) {
         [[NSApplication sharedApplication] presentError:error];
         return nil;
     }
@@ -183,6 +193,26 @@
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
     //[self saveAction:nil];
     return YES;
+}
+
+- (NSURL *)getLogoURL
+{
+    
+    if(self.eventArrayController.selectionIndexes.count != 0){
+        NSString *tempDir = NSTemporaryDirectory();
+        NSString *logoPath = [NSString stringWithFormat:@"%@logo.jpg", tempDir ];
+        Event *event = [self.eventArrayController.selectedObjects objectAtIndex:0];
+        if (event.eventLogo) {
+            NSImage *image = event.eventLogo;
+            NSError * error = [[NSError alloc] init];
+            
+            [event.eventLogo writeToFile:logoPath options:NSDataWritingAtomic error:&error];
+            NSURL *logoURL = [NSURL URLWithString:logoPath];
+            NSLog(logoURL.absoluteString);
+            return [NSURL URLWithString:logoPath];
+        }
+    }
+    return nil;
 }
 
 @end

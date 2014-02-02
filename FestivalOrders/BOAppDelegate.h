@@ -15,7 +15,13 @@
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (weak) IBOutlet NSArrayController *inventoryArrayContoller;
+@property (weak) IBOutlet NSArrayController *eventArrayController;
+
+@property (strong) NSArray *inventorySortDescriptor;
+@property (strong) NSArray *orderSortDescriptor;
 
 - (IBAction)saveAction:(id)sender;
 
+- (NSURL *)getLogoURL;
 @end

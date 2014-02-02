@@ -1,11 +1,43 @@
-td {
+h1 {
+    color: DarkSlateBlue;
+}
+
+h2 {
+    color: DarkSlateBlue;
+}
+
+
+.details tr td {
 border-width: 1px;
-border-style: solid;
+border-style: dashed;
+border-color: lightgray;
 padding: 0px;
 margin: 0px;
 }
 
-table {
+.details {
     border-spacing: 0px;
     border-collapse: separate;
+    
+    margin-top: 2em;
 }
+
+.header {
+    color: white;
+    background-color: DarkSlateBlue ;
+    -webkit-print-color-adjust: exact;
+    border-color: DarkSlateBlue;
+    border-style: solid;
+}
+
+tr.header td {
+    border-color: DarkSlateBlue;
+    border-style: solid;
+}
+
+tr.alt td{
+    background-color: ghostWhite ;
+
+}
+
+[STYLEINJECT]

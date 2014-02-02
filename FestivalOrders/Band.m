@@ -2,7 +2,7 @@
 //  Band.m
 //  FestivalOrders
 //
-//  Created by William Witt on 1/26/14.
+//  Created by William Witt on 2/2/14.
 //  Copyright (c) 2014 William Witt. All rights reserved.
 //
 
@@ -14,12 +14,24 @@
 
 @implementation Band
 
+@dynamic date;
 @dynamic email;
 @dynamic name;
-@dynamic phoneNumber;
 @dynamic pointOfContact;
+@dynamic readyTime;
+@dynamic stage;
 @dynamic category;
 @dynamic event;
 @dynamic orders;
+
+- (void) awakeFromInsert
+{
+    [super awakeFromInsert];
+    self.date = [NSDate date];
+    self.readyTime = [NSDate date];
+    // or [self setPrimitiveDate:[NSDate date]];
+    // to avoid triggering KVO notifications
+    
+}
 
 @end

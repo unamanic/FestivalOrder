@@ -2,7 +2,7 @@
 //  InventoryCategory.h
 //  FestivalOrders
 //
-//  Created by William Witt on 1/26/14.
+//  Created by William Witt on 1/27/14.
 //  Copyright (c) 2014 William Witt. All rights reserved.
 //
 
@@ -14,6 +14,7 @@
 @interface InventoryCategory : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSData * color;
 @property (nonatomic, retain) NSSet *inventoryItems;
 @end
 

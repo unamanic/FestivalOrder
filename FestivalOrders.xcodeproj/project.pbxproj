@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB05659A18974E8B00A0AEAF /* vive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB05659918974E8B00A0AEAF /* vive.jpg */; };
+		BB05659D1897523200A0AEAF /* InventoryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BB05659C1897523200A0AEAF /* InventoryCategory.m */; };
+		BB0565A61897523300A0AEAF /* BandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0565A51897523300A0AEAF /* BandCategory.m */; };
+		BB4350E0189856B900A79B7D /* EventInventoryReserves.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4350DF189856B900A79B7D /* EventInventoryReserves.m */; };
+		BB4350EC18987B2500A79B7D /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4350EB18987B2500A79B7D /* Inventory.m */; };
+		BB4350F61898925200A79B7D /* BOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4350F51898925200A79B7D /* BOColor.m */; };
 		BB5C2A161895909F00EA1EEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C2A151895909F00EA1EEC /* Cocoa.framework */; };
 		BB5C2A201895909F00EA1EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A1E1895909F00EA1EEC /* InfoPlist.strings */; };
 		BB5C2A221895909F00EA1EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A211895909F00EA1EEC /* main.m */; };
@@ -20,12 +26,19 @@
 		BB5C2A41189590A000EA1EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5C2A3F189590A000EA1EEC /* InfoPlist.strings */; };
 		BB5C2A43189590A000EA1EEC /* FestivalOrdersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */; };
 		BB5C2A671895A2D100EA1EEC /* BOMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */; };
-		BBF9AE32189614680004629D /* Band.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE31189614680004629D /* Band.m */; };
-		BBF9AE35189614680004629D /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE34189614680004629D /* Inventory.m */; };
-		BBF9AE38189614680004629D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE37189614680004629D /* Event.m */; };
-		BBF9AE3B189614690004629D /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE3A189614680004629D /* Order.m */; };
-		BBF9AE3E189614690004629D /* BandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE3D189614690004629D /* BandCategory.m */; };
-		BBF9AE41189614690004629D /* InventoryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE40189614690004629D /* InventoryCategory.m */; };
+		BB5F3F22189B6E850074A2F0 /* BOAggregatedOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F21189B6E850074A2F0 /* BOAggregatedOrders.m */; };
+		BB5F3F25189B7FC50074A2F0 /* BONullSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F24189B7FC50074A2F0 /* BONullSortDescriptor.m */; };
+		BB5F3F28189E15DA0074A2F0 /* NSColor+BOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F27189E15DA0074A2F0 /* NSColor+BOColor.m */; };
+		BB5F3F2A189E20F00074A2F0 /* CategoryReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BB5F3F29189E20F00074A2F0 /* CategoryReport.html */; };
+		BB5F3F2C189E2CA90074A2F0 /* BandOrderExpenseReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BB5F3F2B189E2CA90074A2F0 /* BandOrderExpenseReport.html */; };
+		BB5F3F32189E3C100074A2F0 /* DataToImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F31189E3C100074A2F0 /* DataToImageTransformer.m */; };
+		BB5F3F38189E3D7E0074A2F0 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F37189E3D7E0074A2F0 /* Event.m */; };
+		BB5F3F3B189E3EC60074A2F0 /* Band.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F3A189E3EC60074A2F0 /* Band.m */; };
+		BBF45375189899B200E6B03C /* BOColorWellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF45373189899B200E6B03C /* BOColorWellViewController.m */; };
+		BBF45376189899B200E6B03C /* BOColorWellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF45374189899B200E6B03C /* BOColorWellViewController.xib */; };
+		BBF453781898C2C000E6B03C /* BandExpenseReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF453771898C2C000E6B03C /* BandExpenseReport.html */; };
+		BBF4537B1899D39900E6B03C /* BONavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF4537A1899D39900E6B03C /* BONavBarViewController.m */; };
+		BBF4537E189A053000E6B03C /* BOBandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF4537D189A053000E6B03C /* BOBandViewController.m */; };
 		BBF9AE44189618AB0004629D /* BOEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE43189618AB0004629D /* BOEventViewController.m */; };
 		BBF9AE461896DF850004629D /* EventOrders.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE451896DF850004629D /* EventOrders.html */; };
 		BBF9AE491896EA7B0004629D /* BOReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF9AE481896EA7B0004629D /* BOReportViewController.m */; };
@@ -33,6 +46,9 @@
 		BBF9AE4D1896FF5B0004629D /* BandOrderReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE4C1896FF5B0004629D /* BandOrderReport.html */; };
 		BBF9AE4F189707040004629D /* OrderForm.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE4E189707040004629D /* OrderForm.html */; };
 		BBF9AE51189707FB0004629D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = BBF9AE50189707FB0004629D /* style.css */; };
+		BBFFC9E0189A0E0F00D2858D /* BOOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFC9DF189A0E0F00D2858D /* BOOrderViewController.m */; };
+		BBFFC9E4189A163200D2858D /* BODeliveriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFC9E3189A163200D2858D /* BODeliveriesViewController.m */; };
+		BBFFC9E8189A242400D2858D /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFC9E7189A242400D2858D /* Order.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +62,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB05659918974E8B00A0AEAF /* vive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vive.jpg; sourceTree = "<group>"; };
+		BB05659B1897523200A0AEAF /* InventoryCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCategory.h; sourceTree = "<group>"; };
+		BB05659C1897523200A0AEAF /* InventoryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCategory.m; sourceTree = "<group>"; };
+		BB0565A41897523300A0AEAF /* BandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandCategory.h; sourceTree = "<group>"; };
+		BB0565A51897523300A0AEAF /* BandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandCategory.m; sourceTree = "<group>"; };
+		BB4350DE189856B900A79B7D /* EventInventoryReserves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInventoryReserves.h; sourceTree = "<group>"; };
+		BB4350DF189856B900A79B7D /* EventInventoryReserves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInventoryReserves.m; sourceTree = "<group>"; };
+		BB4350EA18987B2500A79B7D /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		BB4350EB18987B2500A79B7D /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+		BB4350F41898925200A79B7D /* BOColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOColor.h; sourceTree = "<group>"; };
+		BB4350F51898925200A79B7D /* BOColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOColor.m; sourceTree = "<group>"; };
 		BB5C2A121895909F00EA1EEC /* FestivalOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5C2A151895909F00EA1EEC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BB5C2A181895909F00EA1EEC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -68,18 +95,29 @@
 		BB5C2A42189590A000EA1EEC /* FestivalOrdersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FestivalOrdersTests.m; sourceTree = "<group>"; };
 		BB5C2A641895A2D100EA1EEC /* BOMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMainWindowController.h; sourceTree = "<group>"; };
 		BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMainWindowController.m; sourceTree = "<group>"; };
-		BBF9AE30189614680004629D /* Band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Band.h; sourceTree = "<group>"; };
-		BBF9AE31189614680004629D /* Band.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Band.m; sourceTree = "<group>"; };
-		BBF9AE33189614680004629D /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
-		BBF9AE34189614680004629D /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
-		BBF9AE36189614680004629D /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
-		BBF9AE37189614680004629D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		BBF9AE39189614680004629D /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
-		BBF9AE3A189614680004629D /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
-		BBF9AE3C189614690004629D /* BandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandCategory.h; sourceTree = "<group>"; };
-		BBF9AE3D189614690004629D /* BandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandCategory.m; sourceTree = "<group>"; };
-		BBF9AE3F189614690004629D /* InventoryCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCategory.h; sourceTree = "<group>"; };
-		BBF9AE40189614690004629D /* InventoryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCategory.m; sourceTree = "<group>"; };
+		BB5F3F20189B6E850074A2F0 /* BOAggregatedOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOAggregatedOrders.h; sourceTree = "<group>"; };
+		BB5F3F21189B6E850074A2F0 /* BOAggregatedOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOAggregatedOrders.m; sourceTree = "<group>"; };
+		BB5F3F23189B7FC50074A2F0 /* BONullSortDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BONullSortDescriptor.h; sourceTree = "<group>"; };
+		BB5F3F24189B7FC50074A2F0 /* BONullSortDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BONullSortDescriptor.m; sourceTree = "<group>"; };
+		BB5F3F26189E15DA0074A2F0 /* NSColor+BOColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+BOColor.h"; path = "FestivalOrders/NSColor+BOColor.h"; sourceTree = "<group>"; };
+		BB5F3F27189E15DA0074A2F0 /* NSColor+BOColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+BOColor.m"; path = "FestivalOrders/NSColor+BOColor.m"; sourceTree = "<group>"; };
+		BB5F3F29189E20F00074A2F0 /* CategoryReport.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CategoryReport.html; sourceTree = "<group>"; };
+		BB5F3F2B189E2CA90074A2F0 /* BandOrderExpenseReport.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BandOrderExpenseReport.html; sourceTree = "<group>"; };
+		BB5F3F30189E3C100074A2F0 /* DataToImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataToImageTransformer.h; sourceTree = "<group>"; };
+		BB5F3F31189E3C100074A2F0 /* DataToImageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataToImageTransformer.m; sourceTree = "<group>"; };
+		BB5F3F36189E3D7E0074A2F0 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		BB5F3F37189E3D7E0074A2F0 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		BB5F3F39189E3EC60074A2F0 /* Band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Band.h; sourceTree = "<group>"; };
+		BB5F3F3A189E3EC60074A2F0 /* Band.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Band.m; sourceTree = "<group>"; };
+		BBD8B77818972B1900662AD1 /* FestivalOrders 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FestivalOrders 2.xcdatamodel"; sourceTree = "<group>"; };
+		BBF45372189899B200E6B03C /* BOColorWellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOColorWellViewController.h; sourceTree = "<group>"; };
+		BBF45373189899B200E6B03C /* BOColorWellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOColorWellViewController.m; sourceTree = "<group>"; };
+		BBF45374189899B200E6B03C /* BOColorWellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BOColorWellViewController.xib; sourceTree = "<group>"; };
+		BBF453771898C2C000E6B03C /* BandExpenseReport.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BandExpenseReport.html; sourceTree = "<group>"; };
+		BBF453791899D39900E6B03C /* BONavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BONavBarViewController.h; sourceTree = "<group>"; };
+		BBF4537A1899D39900E6B03C /* BONavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BONavBarViewController.m; sourceTree = "<group>"; };
+		BBF4537C189A053000E6B03C /* BOBandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOBandViewController.h; sourceTree = "<group>"; };
+		BBF4537D189A053000E6B03C /* BOBandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOBandViewController.m; sourceTree = "<group>"; };
 		BBF9AE42189618AB0004629D /* BOEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOEventViewController.h; sourceTree = "<group>"; };
 		BBF9AE43189618AB0004629D /* BOEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOEventViewController.m; sourceTree = "<group>"; };
 		BBF9AE451896DF850004629D /* EventOrders.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EventOrders.html; sourceTree = "<group>"; };
@@ -89,6 +127,13 @@
 		BBF9AE4C1896FF5B0004629D /* BandOrderReport.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BandOrderReport.html; sourceTree = "<group>"; };
 		BBF9AE4E189707040004629D /* OrderForm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = OrderForm.html; sourceTree = "<group>"; };
 		BBF9AE50189707FB0004629D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		BBFFC9DE189A0E0F00D2858D /* BOOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOOrderViewController.h; sourceTree = "<group>"; };
+		BBFFC9DF189A0E0F00D2858D /* BOOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOOrderViewController.m; sourceTree = "<group>"; };
+		BBFFC9E2189A163200D2858D /* BODeliveriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BODeliveriesViewController.h; sourceTree = "<group>"; };
+		BBFFC9E3189A163200D2858D /* BODeliveriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BODeliveriesViewController.m; sourceTree = "<group>"; };
+		BBFFC9E5189A239800D2858D /* FestivalOrders 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FestivalOrders 3.xcdatamodel"; sourceTree = "<group>"; };
+		BBFFC9E6189A242400D2858D /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		BBFFC9E7189A242400D2858D /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +161,8 @@
 		BB5C2A091895909F00EA1EEC = {
 			isa = PBXGroup;
 			children = (
+				BB5F3F26189E15DA0074A2F0 /* NSColor+BOColor.h */,
+				BB5F3F27189E15DA0074A2F0 /* NSColor+BOColor.m */,
 				BB5C2A1B1895909F00EA1EEC /* FestivalOrders */,
 				BB5C2A3C189590A000EA1EEC /* FestivalOrdersTests */,
 				BB5C2A141895909F00EA1EEC /* Frameworks */,
@@ -156,6 +203,9 @@
 		BB5C2A1B1895909F00EA1EEC /* FestivalOrders */ = {
 			isa = PBXGroup;
 			children = (
+				BB5F3F30189E3C100074A2F0 /* DataToImageTransformer.h */,
+				BB5F3F31189E3C100074A2F0 /* DataToImageTransformer.m */,
+				BBFFC9E1189A160200D2858D /* Controllers */,
 				BB5C2A631895A18000EA1EEC /* Model */,
 				BB5C2A271895909F00EA1EEC /* BOAppDelegate.h */,
 				BB5C2A281895909F00EA1EEC /* BOAppDelegate.m */,
@@ -163,12 +213,10 @@
 				BB5C2A301895909F00EA1EEC /* Images.xcassets */,
 				BB5C2A2D1895909F00EA1EEC /* FestivalOrders.xcdatamodeld */,
 				BB5C2A1C1895909F00EA1EEC /* Supporting Files */,
-				BB5C2A641895A2D100EA1EEC /* BOMainWindowController.h */,
-				BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */,
-				BBF9AE42189618AB0004629D /* BOEventViewController.h */,
-				BBF9AE43189618AB0004629D /* BOEventViewController.m */,
-				BBF9AE471896EA7B0004629D /* BOReportViewController.h */,
-				BBF9AE481896EA7B0004629D /* BOReportViewController.m */,
+				BB5F3F20189B6E850074A2F0 /* BOAggregatedOrders.h */,
+				BB5F3F21189B6E850074A2F0 /* BOAggregatedOrders.m */,
+				BB5F3F23189B7FC50074A2F0 /* BONullSortDescriptor.h */,
+				BB5F3F24189B7FC50074A2F0 /* BONullSortDescriptor.m */,
 			);
 			path = FestivalOrders;
 			sourceTree = "<group>";
@@ -176,15 +224,19 @@
 		BB5C2A1C1895909F00EA1EEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB05659918974E8B00A0AEAF /* vive.jpg */,
 				BB5C2A1D1895909F00EA1EEC /* FestivalOrders-Info.plist */,
 				BB5C2A1E1895909F00EA1EEC /* InfoPlist.strings */,
 				BB5C2A211895909F00EA1EEC /* main.m */,
 				BB5C2A231895909F00EA1EEC /* FestivalOrders-Prefix.pch */,
 				BB5C2A241895909F00EA1EEC /* Credits.rtf */,
 				BBF9AE451896DF850004629D /* EventOrders.html */,
+				BB5F3F29189E20F00074A2F0 /* CategoryReport.html */,
 				BBF9AE4C1896FF5B0004629D /* BandOrderReport.html */,
+				BB5F3F2B189E2CA90074A2F0 /* BandOrderExpenseReport.html */,
 				BBF9AE4E189707040004629D /* OrderForm.html */,
 				BBF9AE50189707FB0004629D /* style.css */,
+				BBF453771898C2C000E6B03C /* BandExpenseReport.html */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -210,20 +262,48 @@
 		BB5C2A631895A18000EA1EEC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BBF9AE30189614680004629D /* Band.h */,
-				BBF9AE31189614680004629D /* Band.m */,
-				BBF9AE33189614680004629D /* Inventory.h */,
-				BBF9AE34189614680004629D /* Inventory.m */,
-				BBF9AE36189614680004629D /* Event.h */,
-				BBF9AE37189614680004629D /* Event.m */,
-				BBF9AE39189614680004629D /* Order.h */,
-				BBF9AE3A189614680004629D /* Order.m */,
-				BBF9AE3C189614690004629D /* BandCategory.h */,
-				BBF9AE3D189614690004629D /* BandCategory.m */,
-				BBF9AE3F189614690004629D /* InventoryCategory.h */,
-				BBF9AE40189614690004629D /* InventoryCategory.m */,
+				BB05659B1897523200A0AEAF /* InventoryCategory.h */,
+				BB05659C1897523200A0AEAF /* InventoryCategory.m */,
+				BB0565A41897523300A0AEAF /* BandCategory.h */,
+				BB0565A51897523300A0AEAF /* BandCategory.m */,
+				BB4350DE189856B900A79B7D /* EventInventoryReserves.h */,
+				BB4350DF189856B900A79B7D /* EventInventoryReserves.m */,
+				BB4350EA18987B2500A79B7D /* Inventory.h */,
+				BB4350EB18987B2500A79B7D /* Inventory.m */,
+				BBFFC9E6189A242400D2858D /* Order.h */,
+				BBFFC9E7189A242400D2858D /* Order.m */,
+				BB5F3F36189E3D7E0074A2F0 /* Event.h */,
+				BB5F3F37189E3D7E0074A2F0 /* Event.m */,
+				BB5F3F39189E3EC60074A2F0 /* Band.h */,
+				BB5F3F3A189E3EC60074A2F0 /* Band.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		BBFFC9E1189A160200D2858D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C2A641895A2D100EA1EEC /* BOMainWindowController.h */,
+				BB5C2A651895A2D100EA1EEC /* BOMainWindowController.m */,
+				BBF9AE42189618AB0004629D /* BOEventViewController.h */,
+				BBF9AE43189618AB0004629D /* BOEventViewController.m */,
+				BBF9AE471896EA7B0004629D /* BOReportViewController.h */,
+				BBF9AE481896EA7B0004629D /* BOReportViewController.m */,
+				BB4350F41898925200A79B7D /* BOColor.h */,
+				BB4350F51898925200A79B7D /* BOColor.m */,
+				BBF45372189899B200E6B03C /* BOColorWellViewController.h */,
+				BBF45373189899B200E6B03C /* BOColorWellViewController.m */,
+				BBF45374189899B200E6B03C /* BOColorWellViewController.xib */,
+				BBF453791899D39900E6B03C /* BONavBarViewController.h */,
+				BBF4537A1899D39900E6B03C /* BONavBarViewController.m */,
+				BBF4537C189A053000E6B03C /* BOBandViewController.h */,
+				BBF4537D189A053000E6B03C /* BOBandViewController.m */,
+				BBFFC9DE189A0E0F00D2858D /* BOOrderViewController.h */,
+				BBFFC9DF189A0E0F00D2858D /* BOOrderViewController.m */,
+				BBFFC9E2189A163200D2858D /* BODeliveriesViewController.h */,
+				BBFFC9E3189A163200D2858D /* BODeliveriesViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,8 +390,13 @@
 				BBF9AE51189707FB0004629D /* style.css in Resources */,
 				BB5C2A201895909F00EA1EEC /* InfoPlist.strings in Resources */,
 				BBF9AE4D1896FF5B0004629D /* BandOrderReport.html in Resources */,
+				BBF453781898C2C000E6B03C /* BandExpenseReport.html in Resources */,
 				BB5C2A311895909F00EA1EEC /* Images.xcassets in Resources */,
+				BB5F3F2C189E2CA90074A2F0 /* BandOrderExpenseReport.html in Resources */,
+				BB05659A18974E8B00A0AEAF /* vive.jpg in Resources */,
 				BB5C2A261895909F00EA1EEC /* Credits.rtf in Resources */,
+				BB5F3F2A189E20F00074A2F0 /* CategoryReport.html in Resources */,
+				BBF45376189899B200E6B03C /* BOColorWellViewController.xib in Resources */,
 				BB5C2A2C1895909F00EA1EEC /* MainMenu.xib in Resources */,
 				BBF9AE4F189707040004629D /* OrderForm.html in Resources */,
 			);
@@ -332,18 +417,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF9AE41189614690004629D /* InventoryCategory.m in Sources */,
-				BBF9AE32189614680004629D /* Band.m in Sources */,
-				BBF9AE38189614680004629D /* Event.m in Sources */,
+				BB5F3F25189B7FC50074A2F0 /* BONullSortDescriptor.m in Sources */,
+				BBFFC9E0189A0E0F00D2858D /* BOOrderViewController.m in Sources */,
+				BB0565A61897523300A0AEAF /* BandCategory.m in Sources */,
+				BBF45375189899B200E6B03C /* BOColorWellViewController.m in Sources */,
 				BB5C2A221895909F00EA1EEC /* main.m in Sources */,
-				BBF9AE3E189614690004629D /* BandCategory.m in Sources */,
-				BBF9AE35189614680004629D /* Inventory.m in Sources */,
 				BBF9AE44189618AB0004629D /* BOEventViewController.m in Sources */,
-				BBF9AE3B189614690004629D /* Order.m in Sources */,
+				BB5F3F28189E15DA0074A2F0 /* NSColor+BOColor.m in Sources */,
+				BB4350E0189856B900A79B7D /* EventInventoryReserves.m in Sources */,
+				BB5F3F3B189E3EC60074A2F0 /* Band.m in Sources */,
+				BBF4537E189A053000E6B03C /* BOBandViewController.m in Sources */,
+				BB5F3F38189E3D7E0074A2F0 /* Event.m in Sources */,
+				BB4350EC18987B2500A79B7D /* Inventory.m in Sources */,
+				BB4350F61898925200A79B7D /* BOColor.m in Sources */,
+				BB05659D1897523200A0AEAF /* InventoryCategory.m in Sources */,
 				BB5C2A291895909F00EA1EEC /* BOAppDelegate.m in Sources */,
 				BB5C2A2F1895909F00EA1EEC /* FestivalOrders.xcdatamodeld in Sources */,
+				BBF4537B1899D39900E6B03C /* BONavBarViewController.m in Sources */,
+				BBFFC9E8189A242400D2858D /* Order.m in Sources */,
 				BB5C2A671895A2D100EA1EEC /* BOMainWindowController.m in Sources */,
+				BB5F3F32189E3C100074A2F0 /* DataToImageTransformer.m in Sources */,
 				BBF9AE491896EA7B0004629D /* BOReportViewController.m in Sources */,
+				BB5F3F22189B6E850074A2F0 /* BOAggregatedOrders.m in Sources */,
+				BBFFC9E4189A163200D2858D /* BODeliveriesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,9 +669,11 @@
 		BB5C2A2D1895909F00EA1EEC /* FestivalOrders.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				BBD8B77818972B1900662AD1 /* FestivalOrders 2.xcdatamodel */,
+				BBFFC9E5189A239800D2858D /* FestivalOrders 3.xcdatamodel */,
 				BB5C2A2E1895909F00EA1EEC /* FestivalOrders.xcdatamodel */,
 			);
-			currentVersion = BB5C2A2E1895909F00EA1EEC /* FestivalOrders.xcdatamodel */;
+			currentVersion = BBFFC9E5189A239800D2858D /* FestivalOrders 3.xcdatamodel */;
 			path = FestivalOrders.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
