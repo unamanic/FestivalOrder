@@ -6,6 +6,9 @@ h2 {
     color: DarkSlateBlue;
 }
 
+td {
+vertical-align:top
+}
 
 .details tr td {
 border-width: 1px;
@@ -39,5 +42,6 @@ tr.alt td{
     background-color: ghostWhite ;
 
 }
+
 
 [STYLEINJECT]

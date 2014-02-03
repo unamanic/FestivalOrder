@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="1.3" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13C48" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Band" representedClassName="Band" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pointOfContact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readyTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BandCategory" inverseName="bands" inverseEntity="BandCategory" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="bands" inverseEntity="Event" syncable="YES"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="band" inverseEntity="Order" syncable="YES"/>
+    </entity>
+    <entity name="BandCategory" representedClassName="BandCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bands" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Band" inverseName="category" inverseEntity="Band" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="eventLogo" optional="YES" attributeType="Binary" valueTransformerName="DataToImageTransformer" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bands" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Band" inverseName="event" inverseEntity="Band" syncable="YES"/>
+        <relationship name="inventoryReserves" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EventInventoryReserves" inverseName="event" inverseEntity="EventInventoryReserves" syncable="YES"/>
+    </entity>
+    <entity name="EventInventoryReserves" representedClassName="EventInventoryReserves" syncable="YES">
+        <attribute name="reserveQuantity" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="inventoryReserves" inverseEntity="Event" syncable="YES"/>
+        <relationship name="inventoryItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Inventory" inverseName="eventReserves" inverseEntity="Inventory" syncable="YES"/>
+    </entity>
+    <entity name="Inventory" representedClassName="Inventory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" ordered="YES" destinationEntity="InventoryCategory" inverseName="inventoryItems" inverseEntity="InventoryCategory" syncable="YES"/>
+        <relationship name="deliveries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="deliveredItem" inverseEntity="Order" syncable="YES"/>
+        <relationship name="eventReserves" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EventInventoryReserves" inverseName="inventoryItem" inverseEntity="EventInventoryReserves" syncable="YES"/>
+    </entity>
+    <entity name="InventoryCategory" representedClassName="InventoryCategory" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="inventoryItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Inventory" inverseName="category" inverseEntity="Inventory" syncable="YES"/>
+    </entity>
+    <entity name="Order" representedClassName="Order" syncable="YES">
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="requestedItem" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="band" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Band" inverseName="orders" inverseEntity="Band" syncable="YES"/>
+        <relationship name="deliveredItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Inventory" inverseName="deliveries" inverseEntity="Inventory" syncable="YES"/>
+        <relationship name="requestedCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InventoryCategory" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Band" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="BandCategory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Event" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="EventInventoryReserves" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Inventory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="InventoryCategory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Order" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

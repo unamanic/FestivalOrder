@@ -20,6 +20,7 @@
 @dynamic pointOfContact;
 @dynamic readyTime;
 @dynamic stage;
+@dynamic notes;
 @dynamic category;
 @dynamic event;
 @dynamic orders;

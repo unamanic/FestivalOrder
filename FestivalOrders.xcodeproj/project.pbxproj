@@ -33,7 +33,7 @@
 		BB5F3F2C189E2CA90074A2F0 /* BandOrderExpenseReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BB5F3F2B189E2CA90074A2F0 /* BandOrderExpenseReport.html */; };
 		BB5F3F32189E3C100074A2F0 /* DataToImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F31189E3C100074A2F0 /* DataToImageTransformer.m */; };
 		BB5F3F38189E3D7E0074A2F0 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F37189E3D7E0074A2F0 /* Event.m */; };
-		BB5F3F3B189E3EC60074A2F0 /* Band.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5F3F3A189E3EC60074A2F0 /* Band.m */; };
+		BB69501B189F47BC001DE7AF /* Band.m in Sources */ = {isa = PBXBuildFile; fileRef = BB69501A189F47BC001DE7AF /* Band.m */; };
 		BBF45375189899B200E6B03C /* BOColorWellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF45373189899B200E6B03C /* BOColorWellViewController.m */; };
 		BBF45376189899B200E6B03C /* BOColorWellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF45374189899B200E6B03C /* BOColorWellViewController.xib */; };
 		BBF453781898C2C000E6B03C /* BandExpenseReport.html in Resources */ = {isa = PBXBuildFile; fileRef = BBF453771898C2C000E6B03C /* BandExpenseReport.html */; };
@@ -107,8 +107,9 @@
 		BB5F3F31189E3C100074A2F0 /* DataToImageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataToImageTransformer.m; sourceTree = "<group>"; };
 		BB5F3F36189E3D7E0074A2F0 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		BB5F3F37189E3D7E0074A2F0 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		BB5F3F39189E3EC60074A2F0 /* Band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Band.h; sourceTree = "<group>"; };
-		BB5F3F3A189E3EC60074A2F0 /* Band.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Band.m; sourceTree = "<group>"; };
+		BB695015189F463C001DE7AF /* FestivalOrders 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FestivalOrders 4.xcdatamodel"; sourceTree = "<group>"; };
+		BB695019189F47BC001DE7AF /* Band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Band.h; sourceTree = "<group>"; };
+		BB69501A189F47BC001DE7AF /* Band.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Band.m; sourceTree = "<group>"; };
 		BBD8B77818972B1900662AD1 /* FestivalOrders 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FestivalOrders 2.xcdatamodel"; sourceTree = "<group>"; };
 		BBF45372189899B200E6B03C /* BOColorWellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOColorWellViewController.h; sourceTree = "<group>"; };
 		BBF45373189899B200E6B03C /* BOColorWellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOColorWellViewController.m; sourceTree = "<group>"; };
@@ -274,8 +275,8 @@
 				BBFFC9E7189A242400D2858D /* Order.m */,
 				BB5F3F36189E3D7E0074A2F0 /* Event.h */,
 				BB5F3F37189E3D7E0074A2F0 /* Event.m */,
-				BB5F3F39189E3EC60074A2F0 /* Band.h */,
-				BB5F3F3A189E3EC60074A2F0 /* Band.m */,
+				BB695019189F47BC001DE7AF /* Band.h */,
+				BB69501A189F47BC001DE7AF /* Band.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -425,7 +426,7 @@
 				BBF9AE44189618AB0004629D /* BOEventViewController.m in Sources */,
 				BB5F3F28189E15DA0074A2F0 /* NSColor+BOColor.m in Sources */,
 				BB4350E0189856B900A79B7D /* EventInventoryReserves.m in Sources */,
-				BB5F3F3B189E3EC60074A2F0 /* Band.m in Sources */,
+				BB69501B189F47BC001DE7AF /* Band.m in Sources */,
 				BBF4537E189A053000E6B03C /* BOBandViewController.m in Sources */,
 				BB5F3F38189E3D7E0074A2F0 /* Event.m in Sources */,
 				BB4350EC18987B2500A79B7D /* Inventory.m in Sources */,
@@ -569,12 +570,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
 				INFOPLIST_FILE = "FestivalOrders/FestivalOrders-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -583,12 +586,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FestivalOrders/FestivalOrders-Prefix.pch";
 				INFOPLIST_FILE = "FestivalOrders/FestivalOrders-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -671,9 +676,10 @@
 			children = (
 				BBD8B77818972B1900662AD1 /* FestivalOrders 2.xcdatamodel */,
 				BBFFC9E5189A239800D2858D /* FestivalOrders 3.xcdatamodel */,
+				BB695015189F463C001DE7AF /* FestivalOrders 4.xcdatamodel */,
 				BB5C2A2E1895909F00EA1EEC /* FestivalOrders.xcdatamodel */,
 			);
-			currentVersion = BBFFC9E5189A239800D2858D /* FestivalOrders 3.xcdatamodel */;
+			currentVersion = BB695015189F463C001DE7AF /* FestivalOrders 4.xcdatamodel */;
 			path = FestivalOrders.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

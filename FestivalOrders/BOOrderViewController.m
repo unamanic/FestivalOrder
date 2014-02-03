@@ -114,6 +114,14 @@
     [dateFormatter setTimeStyle:NSDateFormatterShortStyle];
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     
+    NSString *bandNotes = @"";
+    if (band.notes) {
+        bandNotes = band.notes;
+    }
+    
+    bandNotes = [bandNotes stringByReplacingOccurrencesOfString:@"\n" withString:@"<br />"];
+    htmlContent = [htmlContent stringByReplacingOccurrencesOfString:@"[NOTES]" withString:bandNotes];
+    
     htmlContent = [htmlContent stringByReplacingOccurrencesOfString:@"[DATE]" withString:[dateFormatter stringFromDate:band.date]];
     
     [dateFormatter setDateStyle:NSDateFormatterNoStyle];
@@ -204,6 +212,15 @@
     
     [dateFormatter setTimeStyle:NSDateFormatterShortStyle];
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    
+    NSString *bandNotes = @"";
+    if (band.notes) {
+        bandNotes = band.notes;
+    }
+    
+    bandNotes = [bandNotes stringByReplacingOccurrencesOfString:@"\n" withString:@"<br />"];
+    htmlContent = [htmlContent stringByReplacingOccurrencesOfString:@"[NOTES]" withString:bandNotes];
+
     
     htmlContent = [htmlContent stringByReplacingOccurrencesOfString:@"[DATE]" withString:[dateFormatter stringFromDate:band.date]];
     
